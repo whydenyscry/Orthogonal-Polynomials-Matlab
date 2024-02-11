@@ -137,3 +137,17 @@ $$C_n^{(\lambda)}(x)=\frac{\Gamma\left(\lambda+\frac{1}{2}\right)}{\Gamma\left(2
 
 ### Legendre polynomials
 $$P_n(x)=P_{n}^{(0,0)}(x).$$
+
+$$\begin{align*}
+    P_{0}(x)&=1,\\
+    P_{1}(x)&=x,\\
+    P_{2}(x)&=\frac{3x^2}{2}-\frac{1}{2},\\
+    P_{3}(x)&=\frac{5x^3}{2}-\frac{3x}{2},\\
+    P_{4}(x)&=\frac{35x^4}{8}-\frac{15x^2}{4}+\frac{3}{8},\\
+    P_{5}(x)&=\frac{63x^5}{8}-\frac{35x^3}{4}+\frac{15x}{8},\\
+    P_{6}(x)&=\frac{231x^6}{16}-\frac{315x^4}{16}+\frac{105x^2}{16}-\frac{5}{16},\\
+    P_{7}(x)&=\frac{429x^7}{16}-\frac{693x^5}{16}+\frac{315x^3}{16}-\frac{35x}{16},\\
+    P_{8}(x)&=\frac{6435x^8}{128}-\frac{3003x^6}{32}+\frac{3465x^4}{64}-\frac{315x^2}{32}+\frac{35}{128},\\
+    P_{9}(x)&=\frac{12155x^9}{128}-\frac{6435x^7}{32}+\frac{9009x^5}{64}-\frac{1155x^3}{32}+\frac{315x}{128},\\
+    P_{10}(x)&=\frac{46189x^{10}}{256}-\frac{109395x^8}{256}+\frac{45045x^6}{128}-\frac{15015x^4}{128}+\frac{3465x^2}{256}-\frac{63}{256}.
+\end{align*}$$
