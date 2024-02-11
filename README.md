@@ -71,3 +71,6 @@ $$W_n(x) =\frac{(2n+1)P_n^{(1/2,-1/2)}(x)}{P_n^{(1/2,-1/2)}(1)}=\frac{2^{2n}\lef
 
 ### Gegenbauer polynomials
 $$C_n^{(\lambda)}(x)=\frac{\Gamma\left(\lambda+\frac{1}{2}\right)}{\Gamma\left(2\lambda\right)}\frac{\Gamma\left(2\lambda+n\right)}{\Gamma\left(\lambda+n+\frac{1}{2}\right)}P_n^{(\lambda-1/2,\lambda-1/2)}(x).$$
+
+### Legendre polynomials
+$$P_n(x)=P_{n}^{(0,0)}(x).$$
