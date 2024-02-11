@@ -30,16 +30,20 @@ here for Jacobi polynomials $\kappa_{n}=\left(-2\right)^nn!, F\left(x\right)=\le
 **Recurrence relations.** 
 
 $$P_{n+1}^{(\alpha ,\beta )}(x)=(A_{n}x+B_{n})P_{n}^{(\alpha ,\beta )}-C_{n}P_{n-1}^{(\alpha ,\beta )},$$
+
 where 
+
 $$\begin{align*}
-    A_{n}=\frac{(2n+\alpha+\beta+1)(2n+\alpha+\beta+2)}{2(n+1)(n+\alpha+\beta+1)},\\
-    B_{n}=\frac{(\alpha^{2}-\beta^{2})(2n+\alpha+\beta+1)}{2(n+1)(n+\alpha+\beta+1)(2n+\alpha+\beta)},\\
-    C_{n}=\frac{(n+\alpha)(n+\beta)(2n+\alpha+\beta+2)}{(n+1)(n+\alpha+\beta+1)(2n+\alpha+\beta)},
+    A_{n}&=\frac{(2n+\alpha+\beta+1)(2n+\alpha+\beta+2)}{2(n+1)(n+\alpha+\beta+1)},\\
+    B_{n}&=\frac{(\alpha^{2}-\beta^{2})(2n+\alpha+\beta+1)}{2(n+1)(n+\alpha+\beta+1)(2n+\alpha+\beta)},\\
+    C_{n}&=\frac{(n+\alpha)(n+\beta)(2n+\alpha+\beta+2)}{(n+1)(n+\alpha+\beta+1)(2n+\alpha+\beta)},
 \end{align*}$$
+
 with
+
 $$\begin{align*}
-   P_{0}^{(\alpha ,\beta )}(x)=1,\\
-   P_{1}^{(\alpha ,\beta )}(x)=A_0x+B_0.
+   P_{0}^{(\alpha ,\beta )}(x)&=1,\\
+   P_{1}^{(\alpha ,\beta )}(x)&=A_0x+B_0.
 \end{align*}$$
 
 
