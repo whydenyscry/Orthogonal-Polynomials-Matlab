@@ -52,3 +52,12 @@ x & 1 & & & \\
 & & \ddots & \ddots & 1\\
  & & &1 &2x
 \end{array}\right]_{n\times n}.$$
+
+### Chebyshev polynomials of the second kind
+$$U_n(x)=\frac{(n+1)P_n^{(1/2,1/2)}(x)}{P_n^{(1/2,1/2)}(1)}=\frac{2^{2n}n!(n+1)!}{(2n+1)!}P_n^{(1/2,1/2)}(x)=\frac{\sin{((n+1)\arccos x})}{\sin(\arccos x)}=\det\left[ \begin{array}{cccccc}
+2x & 1 & & & \\
+1 & 2x & 1 & &  \\
+& 1 & \ddots & \ddots &\\
+& & \ddots & \ddots & 1\\
+ & & &1 &2x
+\end{array}\right]_{n\times n}.$$
