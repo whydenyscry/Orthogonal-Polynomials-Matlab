@@ -76,12 +76,54 @@ $$U_n(x)=\frac{(n+1)P_n^{(1/2,1/2)}(x)}{P_n^{(1/2,1/2)}(1)}=\frac{2^{2n}n!(n+1)!
  & & &1 &2x
 \end{array}\right]_{n\times n}.$$
 
+$$\begin{align*}
+    U_{0}(x)&=1,\\
+    U_{1}(x)&=2x,\\
+    U_{2}(x)&=4x^2-1,\\
+    U_{3}(x)&=8x^3-4x,\\
+    U_{4}(x)&=16x^4-12x^2+1,\\
+    U_{5}(x)&=32x^5-32x^3+6x,\\
+    U_{6}(x)&=64x^6-80x^4+24x^2-1,\\
+    U_{7}(x)&=128x^7-192x^5+80x^3-8x,\\
+    U_{8}(x)&=256x^8-448x^6+240x^4-40x^2+1,\\
+    U_{9}(x)&=512x^9-1024x^7+672x^5-160x^3+10x,\\
+    U_{10}(x)&=1024x^{10}-2304x^8+1792x^6-560x^4+60x^2-1.
+\end{align*}$$
+
 ### Chebyshev polynomials of the third kind
 $$V_n(x) =\frac{P_n^{(-1/2,1/2)}(x)}{P_n^{(-1/2,1/2)}(1)}=\frac{2^{2n}(n!)^2}{(2n)!}P_n^{(-1/2,1/2)}(x)= \frac{\cos{\left(\left(n+\frac{1}{2}\right)\arccos x\right)}}{\cos{\left(\frac{1}{2}\arccos x\right)}}.$$
 
 
+$$\begin{align*}
+    V_{0}(x)&=1,\\
+    V_{1}(x)&=2x-1,\\
+    V_{2}(x)&=4x^2-2x-1,\\
+    V_{3}(x)&=8x^3-4x^2-4x+1,\\
+    V_{4}(x)&=16x^4-8x^3-12x^2+4x+1,\\
+    V_{5}(x)&=32x^5-16x^4-32x^3+12x^2+6x-1,\\
+    V_{6}(x)&=64x^6-32x^5-80x^4+32x^3+24x^2-6x-1,\\
+    V_{7}(x)&=128x^7-64x^6-192x^5+80x^4+80x^3-24x^2-8x+1,\\
+    V_{8}(x)&=256x^8-128x^7-448x^6+192x^5+240x^4-80x^3-40x^2+8x+1,\\
+    V_{9}(x)&=512x^9-256x^8-1024x^7+448x^6+672x^5-240x^4-160x^3+40x^2+10x-1,\\
+    V_{10}(x)&=1024x^{10}-512x^9-2304x^8+1024x^7+1792x^6-672x^5-560x^4+160x^3+60x^2-10x-1.
+\end{align*}$$
+
 ### Chebyshev polynomials of the fourth kind
 $$W_n(x) =\frac{(2n+1)P_n^{(1/2,-1/2)}(x)}{P_n^{(1/2,-1/2)}(1)}=\frac{2^{2n}\left(n!\right)^2}{\left(2n\right)!}P_n^{(1/2,-1/2)}(x)= \frac{\sin{\left(\left(n+\frac{1}{2}\right)\arccos x\right)}}{\sin{\left(\frac{1}{2}\arccos x\right)}}.$$
+
+$$\begin{align*}
+    W_{0}(x)&=1,\\
+    W_{1}(x)&=2x+1,\\
+    W_{2}(x)&=4x^2+2x-1,\\
+    W_{3}(x)&=8x^3+4x^2-4x-1,\\
+    W_{4}(x)&=16x^4+8x^3-12x^2-4x+1,\\
+    W_{5}(x)&=32x^5+16x^4-32x^3-12x^2+6x+1,\\
+    W_{6}(x)&=64x^6+32x^5-80x^4-32x^3+24x^2+6x-1,\\
+    W_{7}(x)&=128x^7+64x^6-192x^5-80x^4+80x^3+24x^2-8x-1,\\
+    W_{8}(x)&=256x^8+128x^7-448x^6-192x^5+240x^4+80x^3-40x^2-8x+1,\\
+    W_{9}(x)&=512x^9+256x^8-1024x^7-448x^6+672x^5+240x^4-160x^3-40x^2+10x+1,\\
+    W_{10}(x)&=1024x^{10}+512x^9-2304x^8-1024x^7+1792x^6+672x^5-560x^4-160x^3+60x^2+10x-1.
+\end{align*}$$
 
 ### Gegenbauer polynomials
 $$C_n^{(\lambda)}(x)=\frac{\Gamma\left(\lambda+\frac{1}{2}\right)}{\Gamma\left(2\lambda\right)}\frac{\Gamma\left(2\lambda+n\right)}{\Gamma\left(\lambda+n+\frac{1}{2}\right)}P_n^{(\lambda-1/2,\lambda-1/2)}(x).$$
