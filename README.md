@@ -10,7 +10,6 @@ where $\delta_{nm}$ is Kronecker delta.
 **Recurrence relations.** Assume that $p_{-1}\left(x\right)\equiv0$, then
 \begin{equation}
 	p_{n+1}\left(x\right)=\left(A_nx+B_n\right)p_n\left(x\right)-C_np_{n-1}\left(x\right),
- \tag{1}
 \end{equation}
 here $A_n,B_n\left(n\geq 0\right)$, and $C_n\left(n\geq 1\right)$ are real constants.
 
@@ -30,13 +29,14 @@ Another representation can be obtained using the Rodrigues' formula:
 $$P_{n}^{(\alpha ,\beta )}(x)=\frac{1}{\left(-2\right)^nn!}\left(1-x\right)^{-\alpha}\left(1+x\right)^{-\beta}\frac{{\mathrm{d}}^{n}}{{\mathrm{d}x}^{n}}\left[\left(1-x\right)^\alpha\left(1+x\right)^\beta\left(1-x^2\right)^{n}\right],$$
 here for Jacobi polynomials $\kappa_{n}=\left(-2\right)^nn!, F\left(x\right)=\left(1-x^2\right).$
 
-**Recurrence relations.** Here coefficients for (1) are defined as:
-$$A_{n}=\frac{(2n+\alpha+\beta+1)(2n+\alpha+\beta+2)}{2(n+1)(n+\alpha+\beta+1)},$$
-
-$$B_{n}=\frac{(\alpha^{2}-\beta^{2})(2n+\alpha+\beta+1)}{2(n+1)(n+\alpha+\beta+1)(2n+\alpha+\beta)},$$
-
-$$C_{n}=\frac{(n+\alpha)(n+\beta)(2n+\alpha+\beta+2)}{(n+1)(n+\alpha+\beta+1)(2n+\alpha+\beta)},$$
-
-$$P_{0}^{(\alpha ,\beta )}(x)=1,\quad P_{1}^{(\alpha ,\beta )}(x)=A_0x+B_0,$$
-
-$$P_{n+1}^{(\alpha ,\beta )}(x)=(A_{n}x+B_{n})P_{n}^{(\alpha ,\beta )}-C_{n}P_{n-1}^{(\alpha ,\beta )}.$$
+**Recurrence relations.** Coefficients are defined as:
+\begin{equation}
+P_{n+1}^{(\alpha ,\beta )}(x)=(A_{n}x+B_{n})P_{n}^{(\alpha ,\beta )}-C_{n}P_{n-1}^{(\alpha ,\beta )},
+\end{equation}
+where 
+\begin{equation}
+A_{n}=\frac{(2n+\alpha+\beta+1)(2n+\alpha+\beta+2)}{2(n+1)(n+\alpha+\beta+1)},\\
+B_{n}=\frac{(\alpha^{2}-\beta^{2})(2n+\alpha+\beta+1)}{2(n+1)(n+\alpha+\beta+1)(2n+\alpha+\beta)},\\
+C_{n}=\frac{(n+\alpha)(n+\beta)(2n+\alpha+\beta+2)}{(n+1)(n+\alpha+\beta+1)(2n+\alpha+\beta)},\\
+P_{0}^{(\alpha ,\beta )}(x)=1,\quad P_{1}^{(\alpha ,\beta )}(x)=A_0x+B_0.
+\end{equation}
