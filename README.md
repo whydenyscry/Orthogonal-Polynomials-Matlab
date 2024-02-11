@@ -53,4 +53,4 @@ x & 1 & & & \\
 & 1 & \ddots & \ddots &\\
 & & \ddots & \ddots & 1\\
  & & &1 &2x
-\end{array}\right]$$
+\end{array}\right]_{n\times n}.$$
