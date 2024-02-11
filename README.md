@@ -53,7 +53,7 @@ x & 1 & & & \\
  & & &1 &2x
 \end{array}\right]_{n\times n}.$$
 
-\begin{align*}
+$$\begin{align*}
     T_{0}(x) &= 1,\\
     T_{1}(x) &= x,\\
     T_{2}(x) &= 2x^2-1,\\
@@ -65,7 +65,7 @@ x & 1 & & & \\
     T_{8}(x) &= 128x^8-256x^6+160x^4-32x^2+1,\\
     T_{9}(x) &= 256x^9-576x^7+432x^5-120x^3+9x,\\
     T_{10}(x) &= 512x^{10}-1280x^8+1120x^6-400x^4+50x^2-1.
-\end{align*}
+\end{align*}$$
 
 ### Chebyshev polynomials of the second kind
 $$U_n(x)=\frac{(n+1)P_n^{(1/2,1/2)}(x)}{P_n^{(1/2,1/2)}(1)}=\frac{2^{2n}n!(n+1)!}{(2n+1)!}P_n^{(1/2,1/2)}(x)=\frac{\sin{((n+1)\arccos x})}{\sin(\arccos x)}=\det\left[ \begin{array}{cccccc}
