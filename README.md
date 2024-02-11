@@ -43,4 +43,5 @@ $$C_{n}=\frac{(n+\alpha)(n+\beta)(2n+\alpha+\beta+2)}{(n+1)(n+\alpha+\beta+1)(2n
 $$P_{0}^{(\alpha ,\beta )}(x)=1,\quad P_{1}^{(\alpha ,\beta )}(x)=A_0x+B_0.$$
 
 **Orthogonality.** 
-$$\int _{-1}^{1}P_{m}^{(\alpha ,\beta )}(x)P_{n}^{(\alpha ,\beta )}(x)\omega(x)\,\mathrm{d}x={\frac {2^{\alpha +\beta +1}}{2n+\alpha +\beta +1}}{\frac {\Gamma (n+\alpha +1)\Gamma (n+\beta +1)}{\Gamma (n+\alpha +\beta +1)n!}}\delta _{nm},\qquad \alpha ,\ \beta >-1.$$
+
+$$\int_{-1}^{1}P_{m}^{\left(\alpha ,\beta\right)}\left(x\right)P_{n}^{(\alpha ,\beta )}\left(x\right)\omega\left(x\right)\mathrm{d}x={\frac {2^{\alpha +\beta +1}}{2n+\alpha +\beta +1}}{\frac {\Gamma (n+\alpha +1)\Gamma (n+\beta +1)}{\Gamma (n+\alpha +\beta +1)n!}}\delta _{nm},\quad \alpha,\beta >-1.$$
