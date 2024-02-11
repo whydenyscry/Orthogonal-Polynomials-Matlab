@@ -53,6 +53,20 @@ x & 1 & & & \\
  & & &1 &2x
 \end{array}\right]_{n\times n}.$$
 
+\begin{align*}
+    T_{0}(x) &= 1,\\
+    T_{1}(x) &= x,\\
+    T_{2}(x) &= 2x^2-1,\\
+    T_{3}(x) &= 4x^3-3x,\\
+    T_{4}(x) &= 8x^4-8x^2+1,\\
+    T_{5}(x) &= 16x^5-20x^3+5x,\\
+    T_{6}(x) &= 32x^6-48x^4+18x^2-1,\\
+    T_{7}(x) &= 64x^7-112x^5+56x^3-7x,\\
+    T_{8}(x) &= 128x^8-256x^6+160x^4-32x^2+1,\\
+    T_{9}(x) &= 256x^9-576x^7+432x^5-120x^3+9x,\\
+    T_{10}(x) &= 512x^{10}-1280x^8+1120x^6-400x^4+50x^2-1.
+\end{align*}
+
 ### Chebyshev polynomials of the second kind
 $$U_n(x)=\frac{(n+1)P_n^{(1/2,1/2)}(x)}{P_n^{(1/2,1/2)}(1)}=\frac{2^{2n}n!(n+1)!}{(2n+1)!}P_n^{(1/2,1/2)}(x)=\frac{\sin{((n+1)\arccos x})}{\sin(\arccos x)}=\det\left[ \begin{array}{cccccc}
 2x & 1 & & & \\
