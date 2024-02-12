@@ -14,6 +14,24 @@ here $A_n,B_n\left(n\geq 0\right)$, and $C_n\left(n\geq 1\right)$ are real const
 **Rodrigues' formula.** Orthogonal polynomials can be expressed through Rodrigue's formula, which gives an analytic expression for polynomials through derivatives:
 $$p_{n}(x)=\frac{1}{\kappa_{n}\omega(x)}\frac{{\mathrm{d}}^{n}}{{\mathrm{d}x}^{n}}\left[\omega(x)(F(x))^{n}\right].$$
 
+\begin{table}[]
+	\centering
+	\begin{tabular}{|c|c|c|c|c|}
+		\hline
+		Name                                                               & $p_n(x)$                                        & $(a,b)$            & $\omega\left(x\right)$                          & $h_n$                                                                                                                                     \\ \hline
+		Jacobi                                                             & $P_n^{\left(\alpha,\beta\right)}\left(x\right)$ & $(-1,1)$           & $\left(1-x\right)^\alpha\left(1+x\right)^\beta$ & ${\dfrac {2^{\alpha +\beta +1}}{2n+\alpha +\beta +1}}{\dfrac   {\Gamma (n+\alpha +1)\Gamma (n+\beta +1)}{\Gamma (n+\alpha +\beta +1)n!}}$ \\ \hline
+		Gegenbauer                                                         & $C_n^{\left(\lambda\right)}\left(x\right)$      & $(-1,1)$           & $\left(1-x^2\right)^{\lambda-1/2}$              & $\dfrac{2^{1-2\lambda}\pi\Gamma\left(n+2\lambda\right)}{(n+\lambda)\left(\Gamma\left(\lambda\right)\right)^{2}n!}$                        \\ \hline
+		\begin{tabular}[c]{@{}c@{}}Chebyshev\\ of first kind\end{tabular}  & $T_n\left(x\right)$                             & $(-1,1)$           & $\left(1-x^2\right)^{-1/2}$                     & \begin{tabular}[c]{@{}c@{}}$\begin{cases}\tfrac{1}{2}\pi,&\text{$n>0$}\\ \pi,&\text{$n=0$}\end{cases}$\end{tabular}                \\ \hline
+		\begin{tabular}[c]{@{}c@{}}Chebyshev\\ of second kind\end{tabular} & $U_n\left(x\right)$                             & $(-1,1)$           & $\left(1-x^2\right)^{1/2}$                      & $\tfrac{1}{2}$                                                                                                                            \\ \hline
+		\begin{tabular}[c]{@{}c@{}}Chebyshev\\ of third kind\end{tabular}  & $V_n\left(x\right)$                             & $(-1,1)$           & $\left(1-x\right)^{-1/2}\left(1+x\right)^{1/2}$ & $\pi$                                                                                                                                     \\ \hline
+		\begin{tabular}[c]{@{}c@{}}Chebyshev\\ of fourth kind\end{tabular} & $W_n\left(x\right)$                             & $(-1,1)$           & $\left(1-x\right)^{1/2}\left(1+x\right)^{-1/2}$ & $\pi$                                                                                                                                     \\ \hline
+		Legendre                                                           & $P_n\left(x\right)$                             & $(-1,1)$           & $1$                                             & $\dfrac{2}{2n+1}$                                                                                                                         \\ \hline
+		Laguerre                                                           & $L_n^{\left(\alpha\right)}\left(x\right)$       & $(0,\infty)$       & $x^\alpha\mathrm{e}^{-x}$                       & $\dfrac{\Gamma\left(n+\alpha+1\right)}{n!}$                                                                                               \\ \hline
+		Hermite                                                            & $H_n\left(x\right)$                             & $(-\infty,\infty)$ & $\mathrm{e}^{-x^2}$                             & $\sqrt{\pi}2^nn!$                                                                                                                         \\ \hline
+		Hermite                                                            & $He_n\left(x\right)$                            & $(-\infty,\infty)$ & $\mathrm{e}^{-\frac{1}{2}x^2}$                  & $\sqrt{2\pi}n!$                                                                                                                           \\ \hline
+	\end{tabular}
+\end{table}
+
 ## Jacobi polynomials
 The Jacobi polynomials $p_n\left(x\right)=P_{n}^{(\alpha ,\beta )}\left(x\right)$ are a class of orthogonal polynomials orthogonal on an interval $\left(-1,1\right)$ with a weight function $\omega\left(x\right)=\left(1-x\right)^\alpha\left(1+x\right)^\beta$. Gegenbauer, Chebyshev polynomials of all kinds and Legendre polynomials are special cases of Jacobi polynomials.
 
