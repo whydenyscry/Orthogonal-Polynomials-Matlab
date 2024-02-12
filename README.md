@@ -18,10 +18,7 @@ $$p_{n}(x)=\frac{1}{\kappa_{n}\omega(x)}\frac{{\mathrm{d}}^{n}}{{\mathrm{d}x}^{n
 |------------------------------------|---------------------------------------------|-------------------|-----------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Jacobi                             | $P_n^{\left(\alpha,\beta\right)}\left(x\right)$ | $(-1,1)$          | $\left(1-x\right)^\alpha\left(1+x\right)^\beta$ | ${\dfrac {2^{\alpha +\beta +1}}{2n+\alpha +\beta +1}}{\dfrac   {\Gamma (n+\alpha +1)\Gamma (n+\beta +1)}{\Gamma (n+\alpha +\beta +1)n!}}$ |
 | Gegenbauer                         | $C_n^{\left(\lambda\right)}\left(x\right)$  | $(-1,1)$          | $\left(1-x^2\right)^{\lambda-1/2}$             | $\dfrac{2^{1-2\lambda}\pi\Gamma\left(n+2\lambda\right)}{(n+\lambda)\left(\Gamma\left(\lambda\right)\right)^{2}n!}$                                            |
-| Chebyshev of first kind           | $T_n\left(x\right)$                         | $(-1,1)$          | $\left(1-x^2\right)^{-1/2}$                    | $\begin{array}{ll}
-\tfrac{1}{2}\pi, & \text{if } n>0 \\
-\pi, & \text{if } n=0
-\end{array}$                                                                                    |
+| Chebyshev of first kind           | $T_n\left(x\right)$                         | $(-1,1)$          | $\left(1-x^2\right)^{-1/2}$                    | $\begin{array}{@{}c@{}}\tfrac{1}{2}\pi, \text{if $n>0$}\\ \pi, \text{if $n=0$}\end{array}$                                                                                    |
 | Chebyshev of second kind          | $U_n\left(x\right)$                         | $(-1,1)$          | $\left(1-x^2\right)^{1/2}$                     | $\tfrac{1}{2}$                                                                                                                                                  |
 | Chebyshev of third kind           | $V_n\left(x\right)$                         | $(-1,1)$          | $\left(1-x\right)^{-1/2}\left(1+x\right)^{1/2}$ | $\pi$                                                                                                                                                           |
 | Chebyshev of fourth kind          | $W_n\left(x\right)$                         | $(-1,1)$          | $\left(1-x\right)^{1/2}\left(1+x\right)^{-1/2}$ | $\pi$                                                                                                                                                           |
@@ -29,7 +26,6 @@ $$p_{n}(x)=\frac{1}{\kappa_{n}\omega(x)}\frac{{\mathrm{d}}^{n}}{{\mathrm{d}x}^{n
 | Laguerre                           | $L_n^{\left(\alpha\right)}\left(x\right)$   | $(0,\infty)$      | $x^\alpha\mathrm{e}^{-x}$                     | $\dfrac{\Gamma\left(n+\alpha+1\right)}{n!}$                                                                                                                     |
 | Hermite                            | $H_n\left(x\right)$                         | $(-\infty,\infty)$| $\mathrm{e}^{-x^2}$                           | $\sqrt{\pi}2^nn!$                                                                                                                                               |
 | Hermite                            | $He_n\left(x\right)$                        | $(-\infty,\infty)$| $\mathrm{e}^{-\frac{1}{2}x^2}$                | $\sqrt{2\pi}n!$                                                                                                                                                 |
-
 
 
 ## Jacobi polynomials
