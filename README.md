@@ -66,7 +66,7 @@ $$\begin{align*}
     &=\left[\frac{2^{2n}\left(n!\right)^2}{\left(2n\right)!}\right]^2\frac{2^{\alpha+\beta+1}}{2n+\alpha+\beta+1}\frac{\Gamma\left(n+\alpha+1\right)\Gamma\left(n+\beta+1\right)}{\Gamma\left(n+\alpha+\beta+1\right)n!}\delta_{nm}\\
     &=\left[\frac{2^{2n}\left(n!\right)^2}{\left(2n\right)!}\right]^2\frac{1}{2n}\frac{\left[\Gamma\left(n+\frac{1}{2}\right)\right]^2}{\Gamma\left(n\right)n!}\delta_{nm}\\ 
     &=\left[\frac{2^{2n}\left(n!\right)^2}{\left(2n\right)!}\right]^2\frac{1}{2n}\frac{\left[\frac{\left(2n\right)!\sqrt\pi}{2^{2n}n!}\right]^2}{\Gamma\left(n\right)n!}\delta_{nm}\\
-    &=\frac{\left(n!\right)^4}{2n}\frac{\pi}{\left(n!\right)^3\Gamma\left(n\right)}\delta_{nm}&=\\ 
+    &=\frac{\left(n!\right)^4}{2n}\frac{\pi}{\left(n!\right)^3\Gamma\left(n\right)}\delta_{nm}\\ 
     &=\frac{\left(n-1\right)!n}{2n}\frac{\pi}{\left(n-1\right)!}\delta_{nm}\\ 
     &=\frac{\pi}{2}\delta_{nm}.
 \end{align*}$$
