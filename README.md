@@ -135,6 +135,21 @@ $$\begin{align*}
 ### Gegenbauer polynomials
 $$C_n^{(\lambda)}(x)=\frac{\Gamma\left(\lambda+\frac{1}{2}\right)}{\Gamma\left(2\lambda\right)}\frac{\Gamma\left(2\lambda+n\right)}{\Gamma\left(\lambda+n+\frac{1}{2}\right)}P_n^{(\lambda-1/2,\lambda-1/2)}(x).$$
 
+
+$$\begin{align*}
+    C_{0}^{(1)}(x)&=1,\\
+    C_{1}^{(1)}(x)&=2x,\\
+    C_{2}^{(1)}(x)&=4x^2-1,\\
+    C_{3}^{(1)}(x)&=8x^3-4x,\\
+    C_{4}^{(1)}(x)&=16x^4-12x^2+1,\\
+    C_{5}^{(1)}(x)&=32x^5-32x^3+6x,\\
+    C_{6}^{(1)}(x)&=64x^6-80x^4+24x^2-1,\\
+    C_{7}^{(1)}(x)&=128x^7-192x^5+80x^3-8x,\\
+    C_{8}^{(1)}(x)&=256x^8-448x^6+240x^4-40x^2+1,\\
+    C_{9}^{(1)}(x)&=512x^9-1024x^7+672x^5-160x^3+10x,\\
+    C_{10}^{(1)}(x)&=1024x^{10}-2304x^8+1792x^6-560x^4+60x^2-1.
+\end{align*}$$
+
 $$\begin{align*}
     C_{0}^{(1)}(x)&=1,\\
     C_{1}^{(1)}(x)&=2x,\\
