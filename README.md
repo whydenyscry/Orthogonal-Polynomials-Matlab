@@ -79,17 +79,6 @@ x & 1 & & & \\
 \end{array}\right]_{n\times n}.$$
 
 $$\begin{align*}
-    \int_{-1}^{1}{T_m\left(x\right)T_n\left(x\right)\left(x\right)\omega\left(x\right)}\mathrm{d}x
-    &=\frac{2^{2n}\left(n!\right)^2}{\left(2n\right)!}\frac{2^{2m}\left(m!\right)^2}{\left(2m\right)!}\int_{-1}^{1}{P_m^{\left(-\frac{1}{2},-\frac{1}{2}\right)}\left(x\right)P_n^{\left(-\frac{1}{2},-\frac{1}{2}\right)}\left(x\right)\omega\left(x\right)}\mathrm{d}x\\ 
-    &=\left[\frac{2^{2n}\left(n!\right)^2}{\left(2n\right)!}\right]^2\frac{2^{\alpha+\beta+1}}{2n+\alpha+\beta+1}\frac{\Gamma\left(n+\alpha+1\right)\Gamma\left(n+\beta+1\right)}{\Gamma\left(n+\alpha+\beta+1\right)n!}\delta_{nm}\\
-    &=\left[\frac{2^{2n}\left(n!\right)^2}{\left(2n\right)!}\right]^2\frac{1}{2n}\frac{\left[\Gamma\left(n+\frac{1}{2}\right)\right]^2}{\Gamma\left(n\right)n!}\delta_{nm}\\ 
-    &=\left[\frac{2^{2n}\left(n!\right)^2}{\left(2n\right)!}\right]^2\frac{1}{2n}\frac{\left[\frac{\left(2n\right)!\sqrt\pi}{2^{2n}n!}\right]^2}{\Gamma\left(n\right)n!}\delta_{nm}\\
-    &=\frac{\left(n!\right)^4}{2n}\frac{\pi}{\left(n!\right)^3\Gamma\left(n\right)}\delta_{nm}\\ 
-    &=\frac{\left(n-1\right)!n}{2n}\frac{\pi}{\left(n-1\right)!}\delta_{nm}\\ 
-    &=\frac{\pi}{2}\delta_{nm}.
-\end{align*}$$
-
-$$\begin{align*}
     T_{0}(x)&=1,\\
     T_{1}(x)&=x,\\
     T_{2}(x)&=2x^2-1,\\
