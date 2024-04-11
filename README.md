@@ -64,7 +64,7 @@ $$\begin{align*}
 
 **Orthogonality.** 
 
-$$\int_{-1}^{1}P_{m}^{\left(\alpha ,\beta\right)}\left(x\right)P_{n}^{(\alpha ,\beta )}\left(x\right)\omega\left(x\right)\mathrm{d}x=\int_{-1}^{1}\left[P_{n}^{\left(\alpha ,\beta\right)}\left(x\right)\right]^2\omega\left(x\right)\mathrm{d}x \delta _{nm}={\frac {2^{\alpha +\beta +1}}{2n+\alpha +\beta +1}}{\frac {\Gamma (n+\alpha +1)\Gamma (n+\beta +1)}{\Gamma (n+\alpha +\beta +1)n!}}\delta _{nm},\quad \alpha,\beta >-1.$$
+$$\int_{-1}^{1}P_{m}^{\left(\alpha ,\beta\right)}\left(x\right)P_{n}^{(\alpha ,\beta )}\left(x\right)\omega\left(x\right)\mathrm{d}x=\int_{-1}^{1}\left[P_{n}^{\left(\alpha ,\beta\right)}\left(x\right)\right]^2\omega\left(x\right)\mathrm{d}x={\frac {2^{\alpha +\beta +1}}{2n+\alpha +\beta +1}}{\frac {\Gamma (n+\alpha +1)\Gamma (n+\beta +1)}{\Gamma (n+\alpha +\beta +1)n!}}\delta _{nm},\quad \alpha,\beta >-1.$$
 
 **Special values.**
 $$P_n^{\left(\alpha,\beta\right)}\left(1\right)=\binom{n+\alpha}{n}=\frac{\Gamma\left(n+\alpha+1\right)}{\Gamma\left(\alpha+1\right)\Gamma\left(n+1\right)}.$$
