@@ -125,8 +125,6 @@ $$\begin{align*}
 </p>
 
 ### Chebyshev polynomials of the second kind
-
-<p align="center">
 $$U_n(x)=(n+1)\frac{P_n^{(1/2,1/2)}(x)}{P_n^{(1/2,1/2)}(1)}=\frac{2^{2n}n!(n+1)!}{(2n+1)!}P_n^{(1/2,1/2)}(x)=\frac{\sin{((n+1)\arccos x})}{\sin(\arccos x)}=\det\left[ \begin{array}{cccccc}
 2x & 1 & & & \\
 1 & 2x & 1 & &  \\
@@ -149,6 +147,7 @@ $$\begin{align*}
     U_{10}(x)&=1024x^{10}-2304x^8+1792x^6-560x^4+60x^2-1.
 \end{align*}$$
 
+<p align="center">
   <img src="images_svg/Chebyshev-Polynomials-of-the-Second-Kind.svg"/>
 </p>
 
