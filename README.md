@@ -215,6 +215,10 @@ $$
 \end{align*}
 $$
 
+<p align="center">
+  <img src="images_svg/Gegenbauer-Polynomials-1.svg"/>
+</p>
+
 $$\begin{align*}
     C_{0}^{(2)}(x)&=1,\\
     C_{1}^{(2)}(x)&=4x,\\
@@ -228,6 +232,10 @@ $$\begin{align*}
     C_{9}^{(2)}(x)&=5120x^9-9216x^7+5376x^5-1120x^3+60x,\\
     C_{10}^{(2)}(x)&=11264x^{10}-23040x^8+16128x^6-4480x^4+420x^2-6.
 \end{align*}$$
+
+<p align="center">
+  <img src="images_svg/Gegenbauer-Polynomials-2.svg"/>
+</p>
 
 $$\begin{align*}
     C_{0}^{(3)}(x)&=1,\\
@@ -243,6 +251,10 @@ $$\begin{align*}
     C_{10}^{(3)}(x)&=67584x^{10}-126720x^8+80640x^6-20160x^4+1680x^2-21.
 \end{align*}$$
 
+<p align="center">
+  <img src="images_svg/Gegenbauer-Polynomials-3.svg"/>
+</p>
+
 $$\begin{align*}
     C_{0}^{(4)}(x)&=1,\\
     C_{1}^{(4)}(x)&=8x,\\
@@ -256,6 +268,10 @@ $$\begin{align*}
     C_{9}^{(4)}(x)&=112640x^9-168960x^7+80640x^5-13440x^3+560x,\\
     C_{10}^{(4)}(x)&=292864x^{10}-506880x^8+295680x^6-67200x^4+5040x^2-56.
 \end{align*}$$
+
+<p align="center">
+  <img src="images_svg/Gegenbauer-Polynomials-4.svg"/>
+</p>
 
 $$\begin{align*}
     C_{0}^{(5)}(x)&=1,\\
@@ -271,6 +287,10 @@ $$\begin{align*}
     C_{10}^{(5)}(x)&=1025024x^{10}-1647360x^8+887040x^6-184800x^4+12600x^2-126.
 \end{align*}$$
 
+<p align="center">
+  <img src="images_svg/Gegenbauer-Polynomials-5.svg"/>
+</p>
+
 $$\begin{align*}
     C_{0}^{(6)}(x)&=1,\\
     C_{1}^{(6)}(x)&=12x,\\
@@ -284,6 +304,10 @@ $$\begin{align*}
     C_{9}^{(6)}(x)&=1025024x^9-1317888x^7+532224x^5-73920x^3+2520x,\\
     C_{10}^{(6)}(x)&=3075072x^{10}-4612608x^8+2306304x^6-443520x^4+27720x^2-252.
 \end{align*}$$
+
+<p align="center">
+  <img src="images_svg/Gegenbauer-Polynomials-6.svg"/>
+</p>
 
 $$\begin{align*}
     C_{0}^{(7)}(x)&=1,\\
@@ -299,6 +323,10 @@ $$\begin{align*}
     C_{10}^{(7)}(x)&=8200192x^{10}-11531520x^8+5381376x^6-960960x^4+55440x^2-462.
 \end{align*}$$
 
+<p align="center">
+  <img src="images_svg/Gegenbauer-Polynomials-7.svg"/>
+</p>
+
 $$\begin{align*}
     C_{0}^{(8)}(x)&=1,\\
     C_{1}^{(8)}(x)&=16x,\\
@@ -312,6 +340,10 @@ $$\begin{align*}
     C_{9}^{(8)}(x)&=5857280x^9-6589440x^7+2306304x^5-274560x^3+7920x,\\
     C_{10}^{(8)}(x)&=19914752x^{10}-26357760x^8+11531520x^6-1921920x^4+102960x^2-792.
 \end{align*}$$
+
+<p align="center">
+  <img src="images_svg/Gegenbauer-Polynomials-8.svg"/>
+</p>
 
 $$\begin{align*}
     C_{0}^{(9)}(x)&=1,\\
@@ -327,6 +359,10 @@ $$\begin{align*}
     C_{10}^{(9)}(x)&=44808192x^{10}-56010240x^8+23063040x^6-3603600x^4+180180x^2-1287.
 \end{align*}$$
 
+<p align="center">
+  <img src="images_svg/Gegenbauer-Polynomials-9.svg"/>
+</p>
+
 $$\begin{align*}
     C_{0}^{(10)}(x)&=1,\\
     C_{1}^{(10)}(x)&=20x,\\
@@ -340,6 +376,10 @@ $$\begin{align*}
     C_{9}^{(10)}(x)&=24893440x^9-24893440x^7+7687680x^5-800800x^3+20020x,\\
     C_{10}^{(10)}(x)&=94595072x^{10}-112020480x^8+43563520x^6-6406400x^4+300300x^2-2002.   
 \end{align*}$$
+
+<p align="center">
+  <img src="images_svg/Gegenbauer-Polynomials-10.svg"/>
+</p>
 
 
 ### Legendre polynomials
