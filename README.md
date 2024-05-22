@@ -753,7 +753,7 @@ $$
 $$
 
 <p align="center">
-  <img src="images_svg/Laguerre-Polynomials-9.svg"/>
+  <img src="images_svg/Laguerre-Polynomials-10.svg"/>
 </p>
 
 
