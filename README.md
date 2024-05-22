@@ -1,5 +1,25 @@
 # Classical Orthogonal Polynomials
-## General Orthogonal Polynomials. Definitions
+Jacobi, Gegenbauer, Chebyshev of first, second, third, fourth kind, Legendre, Laguerre, Hermite, shifted Chebyshev and Legendre polynomials using MATLAB.
+
+## Table of Contents
+
+- [Definitions](#definitions)
+- [Jacobi polynomials](#jacobi-polynomials)
+	- [Chebyshev polynomials of the first kind](#chebyshev-polynomials-of-the-first-kind)
+	- [Chebyshev polynomials of the second kind](#chebyshev-polynomials-of-the-second-kind)
+	- [Chebyshev polynomials of the third kind](#chebyshev-polynomials-of-the-third-kind)
+	- [Chebyshev polynomials of the fourth kind](#chebyshev-polynomials-of-the-fourth-kind)
+	- [Gegenbauer polynomials](#gegenbauer-polynomials)
+	- [Legendre polynomials](#legendre-polynomials)
+	- [Shifted Chebyshev polynomials of the first kind](#shifted-chebyshev-polynomials-of-the-first-kind)
+	- [Shifted Chebyshev polynomials of the second kind](#shifted-chebyshev-polynomials-of-the-second-kind)
+	- [Shifted Chebyshev polynomials of the third kind](#shifted-chebyshev-polynomials-of-the-third-kind)
+	- [Shifted Chebyshev polynomials of the fourth kind](#shifted-chebyshev-polynomials-of-the-fourth-kind)
+	- [Shifted Legendre polynomials](#shifted-legendre-polynomials)
+- [References](#references)
+
+## Definitions
+
 **Orthogonality on intervals.** A set of polynomials $\lbrace p_n(x)\rbrace_{n=0}^{\infty}$ is said to be orthogonal on $\left(a,b\right)$ with respect to the weight function $\omega\left(x\right)\geq0$ if
 $$\int_a^bp_n\left(x\right)p_m\left(x\right)\omega\left(x\right)\mathrm{d}x=\delta_{mn}h_n.$$
 
@@ -13,6 +33,12 @@ here $A_n,B_n\left(n\geq 0\right)$, and $C_n\left(n\geq 1\right)$ are real const
 
 **Rodrigues' formula.** Orthogonal polynomials can be expressed through Rodrigue's formula, which gives an analytic expression for polynomials through derivatives:
 $$p_{n}(x)=\frac{1}{\kappa_{n}\omega(x)}\frac{{\mathrm{d}}^{n}}{{\mathrm{d}x}^{n}}\left[\omega(x)(F(x))^{n}\right].$$
+
+**Pochhammer Symbol & Falling Factorial**
+
+&&
+\left(x\right)_n\equiv\frac{\Gamma\left(x+n\right)}{\Gamma\left(x\right)}.
+&&
 
 | Name                               | $p_n(x)$                                    | $(a,b)$           | $\omega(x)$                                   | $h_n$                                                                                                        | $F(x)$    | $\kappa_n$            |
 |------------------------------------|---------------------------------------------|-------------------|-----------------------------------------------|--------------------------------------------------------------------------------------------------------------|-----------|-----------------------|
