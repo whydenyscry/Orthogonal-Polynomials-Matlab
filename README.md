@@ -15,6 +15,7 @@ Jacobi, Gegenbauer, Chebyshev of first, second, third, fourth kind, Legendre, La
 	- [Shifted Chebyshev polynomials of the second kind](#shifted-chebyshev-polynomials-of-the-second-kind)
 	- [Shifted Chebyshev polynomials of the third kind](#shifted-chebyshev-polynomials-of-the-third-kind)
 	- [Shifted Chebyshev polynomials of the fourth kind](#shifted-chebyshev-polynomials-of-the-fourth-kind)
+	- [Shifted Gegenbauer polynomials](shifted-gegenbauer-polynomials)
 	- [Shifted Legendre polynomials](#shifted-legendre-polynomials)
 - [References](#references)
 
@@ -36,9 +37,9 @@ $$p_{n}(x)=\frac{1}{\kappa_{n}\omega(x)}\frac{{\mathrm{d}}^{n}}{{\mathrm{d}x}^{n
 
 **Pochhammer Symbol & Falling Factorial**
 
-&&
+$$
 \left(x\right)_n\equiv\frac{\Gamma\left(x+n\right)}{\Gamma\left(x\right)}.
-&&
+$$
 
 | Name                               | $p_n(x)$                                    | $(a,b)$           | $\omega(x)$                                   | $h_n$                                                                                                        | $F(x)$    | $\kappa_n$            |
 |------------------------------------|---------------------------------------------|-------------------|-----------------------------------------------|--------------------------------------------------------------------------------------------------------------|-----------|-----------------------|
@@ -414,6 +415,8 @@ $$\begin{align*}
     W_{9}^\ast(x)&=262144x^9-1114112x^8+1966080x^7-1863680x^6+1025024x^5-329472x^4+59136x^3-5280x^2+180x-1,\\
     W_{10}^\ast(x)&=1048576x^{10}-4980736x^9+10027008x^8-11141120x^7+7454720x^6-3075072x^5+768768x^4-109824x^3+7920x^2-220x+1.
 \end{align*}$$
+
+### Shifted Gegenbauer polynomials
 
 ### Shifted Legendre polynomials
 
