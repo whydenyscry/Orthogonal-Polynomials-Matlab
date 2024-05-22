@@ -15,7 +15,7 @@ Jacobi, Gegenbauer, Chebyshev of first, second, third, fourth kind, Legendre, La
 	- [Shifted Chebyshev polynomials of the second kind](#shifted-chebyshev-polynomials-of-the-second-kind)
 	- [Shifted Chebyshev polynomials of the third kind](#shifted-chebyshev-polynomials-of-the-third-kind)
 	- [Shifted Chebyshev polynomials of the fourth kind](#shifted-chebyshev-polynomials-of-the-fourth-kind)
-	- [Shifted Gegenbauer polynomials](shifted-gegenbauer-polynomials)
+	- [Shifted Gegenbauer polynomials](#shifted-gegenbauer-polynomials)
 	- [Shifted Legendre polynomials](#shifted-legendre-polynomials)
 - [References](#references)
 
@@ -38,7 +38,7 @@ $$p_{n}(x)=\frac{1}{\kappa_{n}\omega(x)}\frac{{\mathrm{d}}^{n}}{{\mathrm{d}x}^{n
 **Pochhammer Symbol & Falling Factorial**
 
 $$
-\left(x\right)_n\equiv\frac{\Gamma\left(x+n\right)}{\Gamma\left(x\right)}.
+\left(x\right)_n\equiv\frac{\Gamma\left(x+n\right)}{\Gamma\left(x\right)}, \quad n\geq0.
 $$
 
 | Name                               | $p_n(x)$                                    | $(a,b)$           | $\omega(x)$                                   | $h_n$                                                                                                        | $F(x)$    | $\kappa_n$            |
