@@ -553,7 +553,7 @@ $$
 **Orthogonality.** 
 
 $$
-\int_{0}^{\infty}L^{(\alpha)}_{m}(x)L^{(\alpha)}_{n}(x)\omega(x)\mathrm{d}x=\frac{\Gamma(n+\alpha+1)}{n!}\delta_{mn}.
+\int\_{0}^{\infty}L^{(\alpha)}\_{m}(x)L^{(\alpha)}\_{n}(x)\omega(x)\mathrm{d}x=\frac{\Gamma(n+\alpha+1)}{n!}\delta\_{mn}.
 $$
 
 $$
