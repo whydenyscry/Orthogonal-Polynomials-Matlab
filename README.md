@@ -154,7 +154,6 @@ $$\begin{align*}
 ### Chebyshev polynomials of the third kind
 $$V_n(x) =\frac{P_n^{(-1/2,1/2)}(x)}{P_n^{(-1/2,1/2)}(1)}=\frac{2^{2n}(n!)^2}{(2n)!}P_n^{(-1/2,1/2)}(x)= \frac{\cos{\left(\left(n+\frac{1}{2}\right)\arccos x\right)}}{\cos{\left(\frac{1}{2}\arccos x\right)}}.$$
 
-
 $$\begin{align*}
     V_{0}(x)&=1,\\
     V_{1}(x)&=2x-1,\\
@@ -168,6 +167,10 @@ $$\begin{align*}
     V_{9}(x)&=512x^9-256x^8-1024x^7+448x^6+672x^5-240x^4-160x^3+40x^2+10x-1,\\
     V_{10}(x)&=1024x^{10}-512x^9-2304x^8+1024x^7+1792x^6-672x^5-560x^4+160x^3+60x^2-10x-1.
 \end{align*}$$
+
+<p align="center">
+  <img src="images_svg/Chebyshev-Polynomials-of-the-third-Kind.svg"/>
+</p>	
 
 ### Chebyshev polynomials of the fourth kind
 $$W_n(x) =(2n+1)\frac{P_n^{(1/2,-1/2)}(x)}{P_n^{(1/2,-1/2)}(1)}=\frac{2^{2n}\left(n!\right)^2}{\left(2n\right)!}P_n^{(1/2,-1/2)}(x)= \frac{\sin{\left(\left(n+\frac{1}{2}\right)\arccos x\right)}}{\sin{\left(\frac{1}{2}\arccos x\right)}}.$$
@@ -185,6 +188,10 @@ $$\begin{align*}
     W_{9}(x)&=512x^9+256x^8-1024x^7-448x^6+672x^5+240x^4-160x^3-40x^2+10x+1,\\
     W_{10}(x)&=1024x^{10}+512x^9-2304x^8-1024x^7+1792x^6+672x^5-560x^4-160x^3+60x^2+10x-1.
 \end{align*}$$
+
+<p align="center">
+  <img src="images_svg/Chebyshev-Polynomials-of-the-fourth-Kind.svg"/>
+</p>	
 
 ### Gegenbauer polynomials
 
@@ -352,6 +359,10 @@ $$\begin{align*}
     P_{10}(x)&=\frac{46189x^{10}}{256}-\frac{109395x^8}{256}+\frac{45045x^6}{128}-\frac{15015x^4}{128}+\frac{3465x^2}{256}-\frac{63}{256}.
 \end{align*}$$
 
+<p align="center">
+  <img src="images_svg/legendre-polynomials.svg"/>
+</p>	
+
 ### Shifted Chebyshev polynomials of the first kind
 
 $$T_n^\ast(x)=T_n(2x-1)$$
@@ -369,6 +380,10 @@ $$\begin{align*}
     T_{9}^\ast(x)&=131072x^9-589824x^8+1105920x^7-1118208x^6+658944x^5-228096x^4+44352x^3-4320x^2+162x-1,\\
     T_{10}^\ast(x)&=524288x^{10}-2621440x^9+5570560x^8-6553600x^7+4659200x^6-2050048x^5+549120x^4-84480x^3+6600x^2-200x+1.
 \end{align*}$$
+
+<p align="center">
+  <img src="images_svg/shifted-chebyshev-polynomials-of-the-first-kind.svg"/>
+</p>	
 
 ### Shifted Chebyshev polynomials of the second kind
 
@@ -388,6 +403,10 @@ $$\begin{align*}
     U_{10}^\ast(x)&=1048576x^{10}-5242880x^9+11206656x^8-13369344x^7+9748480x^6-4472832x^5+1281280x^4-219648x^3+20592x^2-880x+11.
 \end{align*}$$
 
+<p align="center">
+  <img src="images_svg/shifted-chebyshev-polynomials-of-the-second-kind.svg"/>
+</p>	
+
 ### Shifted Chebyshev polynomials of the third kind
 
 $$V_n^\ast(x)=V_n(2x-1)$$
@@ -406,6 +425,10 @@ $$\begin{align*}
     V_{10}^\ast(x)&=1048576x^{10}-5505024x^9+12386304x^8-15597568x^7+12042240x^6-5870592x^5+1793792x^4-329472x^3+33264x^2-1540x+21.
 \end{align*}$$
 
+<p align="center">
+  <img src="images_svg/shifted-chebyshev-polynomials-of-the-third-kind.svg"/>
+</p>	
+
 ### Shifted Chebyshev polynomials of the fourth kind
 
 $$W_n^\ast(x)=W_n(2x-1)$$
@@ -423,6 +446,10 @@ $$\begin{align*}
     W_{9}^\ast(x)&=262144x^9-1114112x^8+1966080x^7-1863680x^6+1025024x^5-329472x^4+59136x^3-5280x^2+180x-1,\\
     W_{10}^\ast(x)&=1048576x^{10}-4980736x^9+10027008x^8-11141120x^7+7454720x^6-3075072x^5+768768x^4-109824x^3+7920x^2-220x+1.
 \end{align*}$$
+
+<p align="center">
+  <img src="images_svg/shifted-chebyshev-polynomials-of-the-fourth-kind.svg"/>
+</p>	
 
 ### Shifted Gegenbauer polynomials
 
@@ -443,6 +470,10 @@ $$\begin{align*}
     P_{9}^\ast(x)&=48620x^9-218790x^8+411840x^7-420420x^6+252252x^5-90090x^4+18480x^3-1980x^2+90x-1,\\
     P_{10}^\ast(x)&=184756x^{10}-923780x^9+1969110x^8-2333760x^7+1681680x^6-756756x^5+210210x^4-34320x^3+2970x^2-110x+1.
 \end{align*}$$
+
+<p align="center">
+  <img src="images_svg/shifted-legendre-polynomials.svg"/>
+</p>	
 
 ## References
 1. NIST Digital Library of Mathematical Functions. https://dlmf.nist.gov/, Release 1.2.0 of 2024-03-15. F. W. J. Olver, A. B. Olde Daalhuis, D. W. Lozier, B. I. Schneider, R. F. Boisvert, C. W. Clark, B. R. Miller, B. V. Saunders, H. S. Cohl, and M. A. McClain, eds.
