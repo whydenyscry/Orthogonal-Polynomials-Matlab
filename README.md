@@ -169,8 +169,8 @@ $$\begin{align*}
 \end{align*}$$
 
 <p align="center">
-  <img src="images_svg/Chebyshev-Polynomials-of-the-third-Kind.svg"/>
-</p>	
+  <img src="images_svg/Chebyshev-Polynomials-of-the-Third-Kind.svg"/>
+</p>
 
 ### Chebyshev polynomials of the fourth kind
 $$W_n(x) =(2n+1)\frac{P_n^{(1/2,-1/2)}(x)}{P_n^{(1/2,-1/2)}(1)}=\frac{2^{2n}\left(n!\right)^2}{\left(2n\right)!}P_n^{(1/2,-1/2)}(x)= \frac{\sin{\left(\left(n+\frac{1}{2}\right)\arccos x\right)}}{\sin{\left(\frac{1}{2}\arccos x\right)}}.$$
@@ -190,7 +190,7 @@ $$\begin{align*}
 \end{align*}$$
 
 <p align="center">
-  <img src="images_svg/Chebyshev-Polynomials-of-the-fourth-Kind.svg"/>
+  <img src="images_svg/Chebyshev-Polynomials-of-the-Fourth-Kind.svg"/>
 </p>	
 
 ### Gegenbauer polynomials
@@ -360,7 +360,7 @@ $$\begin{align*}
 \end{align*}$$
 
 <p align="center">
-  <img src="images_svg/legendre-polynomials.svg"/>
+  <img src="images_svg/Legendre-Polynomials.svg"/>
 </p>	
 
 ### Shifted Chebyshev polynomials of the first kind
@@ -382,7 +382,7 @@ $$\begin{align*}
 \end{align*}$$
 
 <p align="center">
-  <img src="images_svg/shifted-chebyshev-polynomials-of-the-first-kind.svg"/>
+  <img src="images_svg/Shifted-Chebyshev-Polynomials-of-the-First-Kind.svg"/>
 </p>	
 
 ### Shifted Chebyshev polynomials of the second kind
@@ -404,8 +404,8 @@ $$\begin{align*}
 \end{align*}$$
 
 <p align="center">
-  <img src="images_svg/shifted-chebyshev-polynomials-of-the-second-kind.svg"/>
-</p>	
+  <img src="images_svg/Shifted-Chebyshev-Polynomials-of-the-Second-Kind.svg"/>
+</p>		
 
 ### Shifted Chebyshev polynomials of the third kind
 
@@ -426,8 +426,8 @@ $$\begin{align*}
 \end{align*}$$
 
 <p align="center">
-  <img src="images_svg/shifted-chebyshev-polynomials-of-the-third-kind.svg"/>
-</p>	
+  <img src="images_svg/Shifted-Chebyshev-Polynomials-of-the-Third-Kind.svg"/>
+</p>			
 
 ### Shifted Chebyshev polynomials of the fourth kind
 
@@ -448,8 +448,8 @@ $$\begin{align*}
 \end{align*}$$
 
 <p align="center">
-  <img src="images_svg/shifted-chebyshev-polynomials-of-the-fourth-kind.svg"/>
-</p>	
+  <img src="images_svg/Shifted-Chebyshev-Polynomials-of-the-Fourth-Kind.svg"/>
+</p>		
 
 ### Shifted Gegenbauer polynomials
 
@@ -472,7 +472,7 @@ $$\begin{align*}
 \end{align*}$$
 
 <p align="center">
-  <img src="images_svg/shifted-legendre-polynomials.svg"/>
+  <img src="images_svg/Shifted-Legendre-Polynomials.svg"/>
 </p>	
 
 ## References
