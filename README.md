@@ -17,6 +17,7 @@ Jacobi, Gegenbauer, Chebyshev of first, second, third, fourth kind, Legendre, La
 	- [Shifted Chebyshev polynomials of the fourth kind](#shifted-chebyshev-polynomials-of-the-fourth-kind)
 	- [Shifted Gegenbauer polynomials](#shifted-gegenbauer-polynomials)
 	- [Shifted Legendre polynomials](#shifted-legendre-polynomials)
+- [Laguerre Polynomials](#laguerre-polynomials)
 - [References](#references)
 
 ## Definitions
@@ -513,7 +514,68 @@ $$\begin{align*}
 
 <p align="center">
   <img src="images_svg/Shifted-Legendre-Polynomials.svg"/>
-</p>	
+</p>
+
+## Laguerre Polynomials	
+The Laguerre polynomials $p_n\left(x\right)=L_{n}^{(\alpha)}\left(x\right)$ are a class of orthogonal polynomials orthogonal on an interval $\left(0,\infty\right)$ with a weight function $\omega\left(x\right)=x^\alpha\mathrm{e}^{-x}$.
+
+**Definition.** The Laguerre polynomials are defined via Rodrigues' formula:
+
+$$
+L_n^{\left(\alpha\right)}\left(x\right)=\frac{\mathrm{e}^{x}}{n!x^{\alpha}}\frac{{\mathrm{d}}^{n}}{{\mathrm{d}x}^{n}}\left[x^{n+\alpha}\mathrm{e}^{-x}\right].
+$$
+
+**Recurrence relations.** 
+
+$$
+L_{n+1}^{\left(\alpha\right)}\left(x\right)=(A_{n}x+B_{n})L_n^{\left(\alpha\right)}\left(x\right)-C_{n}L_{n-1}^{\left(\alpha\right)}\left(x\right),
+$$
+
+where 
+
+$$
+\begin{align*}
+    A_{n}&=-\frac{1}{n+1},\\
+    B_{n}&=\frac{2n+\alpha+1}{n+1},\\
+    C_{n}&=\frac{n+\alpha}{n+1},
+\end{align*}
+$$
+
+with
+
+$$
+\begin{align*}
+   L_0^{\left(\alpha\right)}\left(x\right)&=1,\\
+   L_1^{\left(\alpha\right)}\left(x\right)&=A_0x+B_0.
+\end{align*}
+$$
+
+**Orthogonality.** 
+
+$$
+\int_{0}^{\infty}L^{(\alpha)}_m(x)L^{(\alpha)}_n\omega(x)\,\mathrm{d}x=\frac{\Gamma(n+\alpha+1)}{n!}\delta_{mn}.
+$$
+
+$$
+\begin{align*}
+    L_{0}^{1}(x)&=1,\\
+    L_{1}^{1}(x)&=2-x,\\
+    L_{2}^{1}(x)&=\frac{x^2}{2}-3x+3,\\
+    L_{3}^{1}(x)&=-\frac{x^3}{6}+2x^2-6x+4,\\
+    L_{4}^{1}(x)&=\frac{x^4}{24}-\frac{5x^3}{6}+5x^2-10x+5,\\
+    L_{5}^{1}(x)&=-\frac{x^5}{120}+\frac{x^4}{4}-\frac{5x^3}{2}+10x^2-15x+6,\\
+    L_{6}^{1}(x)&=\frac{x^6}{720}-\frac{7x^5}{120}+\frac{7x^4}{8}-\frac{35x^3}{6}+\frac{35x^2}{2}-21x+7,\\
+    L_{7}^{1}(x)&=-\frac{x^7}{5040}+\frac{x^6}{90}-\frac{7x^5}{30}+\frac{7x^4}{3}-\frac{35x^3}{3}+28x^2-28x+8,\\
+    L_{8}^{1}(x)&=\frac{x^8}{40320}-\frac{x^7}{560}+\frac{x^6}{20}-\frac{7x^5}{10}+\frac{21x^4}{4}-21x^3+42x^2-36x+9,\\
+    L_{9}^{1}(x)&=-\frac{x^9}{362880}+\frac{x^8}{4032}-\frac{x^7}{112}+\frac{x^6}{6}-\frac{7x^5}{4}+\frac{21x^4}{2}-35x^3+60x^2-45x+10,\\
+    L_{10}^{1}(x)&=\frac{x^{10}}{3628800}-\frac{11x^9}{362880}+\frac{11x^8}{8064}-\frac{11x^7}{336}+\frac{11x^6}{24}-\frac{77x^5}{20}+\frac{77x^4}{4}-55x^3+\frac{165x^2}{2}-55x+11.
+\end{align*}
+$$
+
+<p align="center">
+  <img src="images_svg/Laguerre-Polynomials-1.svg"/>
+</p>
+
 
 ## References
 1. NIST Digital Library of Mathematical Functions. https://dlmf.nist.gov/, Release 1.2.0 of 2024-03-15. F. W. J. Olver, A. B. Olde Daalhuis, D. W. Lozier, B. I. Schneider, R. F. Boisvert, C. W. Clark, B. R. Miller, B. V. Saunders, H. S. Cohl, and M. A. McClain, eds.
