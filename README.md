@@ -55,7 +55,7 @@ $$
 | Legendre                           | $P_n(x)$                                    | $(-1,1)$          | $1$                                           | $\frac{2}{2n+1}$                                                                                              | $1 - x^2$ | $(-2)^n n!$                                           |
 | Laguerre                           | $L_n^{(\alpha)}(x)$                        | $(0,\infty)$      | $x^\alpha \mathrm{e}^{-x}$                            | $\frac{\Gamma(n+\alpha+1)}{n!}$                                                                              | $x$       | $n!$                                                  |
 | Hermite                            | $H_n(x)$                                    | $(-\infty,\infty)$| $\mathrm{e}^{-x^2}$                                   | $\sqrt{\pi}2^nn!$                                                                                            | $1$       | $(-1)^n$                                              |
-| Hermite                            | $He_n(x)$                                   | $(-\infty,\infty)$| $\mathrm{e}^{-\frac{1}{2}x^2}$                       | $\sqrt{2\pi}n!$                                                                                              | $1$       | $(-1)^n$                                              |
+| Hermite                            | $\text{He}_n(x)$                                   | $(-\infty,\infty)$| $\mathrm{e}^{-\frac{1}{2}x^2}$                       | $\sqrt{2\pi}n!$                                                                                              | $1$       | $(-1)^n$                                              |
 
 
 
@@ -944,18 +944,18 @@ $$
 
 ## Hermite He Polynomials
 
-The probabilist's Hermite polynomials $p_n\left(x\right)=He_{n}(x)$ are a class of orthogonal polynomials orthogonal on an interval $\left(-\infty,\infty\right)$ with a weight function $\omega\left(x\right)=\mathrm{e}^{-\frac{1}{2}x^2}$.
+The probabilist's Hermite polynomials $p_n\left(x\right)=\text{He}_{n}(x)$ are a class of orthogonal polynomials orthogonal on an interval $\left(-\infty,\infty\right)$ with a weight function $\omega\left(x\right)=\mathrm{e}^{-\frac{1}{2}x^2}$.
 
 **Definition.** The probabilist's Hermite polynomials are defined via Rodrigues' formula:
 
 $$
-He_{n}(x)=(-1)^n\mathrm{e}^{\frac{1}{2}x^2}\frac{{\mathrm{d}}^{n}}{{\mathrm{d}x}^{n}}\left[\mathrm{e}^{-\frac{1}{2}x^2}\right].
+\text{He}_{n}(x)=(-1)^n\mathrm{e}^{\frac{1}{2}x^2}\frac{{\mathrm{d}}^{n}}{{\mathrm{d}x}^{n}}\left[\mathrm{e}^{-\frac{1}{2}x^2}\right].
 $$
 
 **Recurrence relations.** 
 
 $$
-He_{n+1}\left(x\right)=(A_{n}x+B_{n})He_{n}\left(x\right)-C_{n}He_{n-1}\left(x\right).
+\text{He}_{n+1}\left(x\right)=(A_{n}x+B_{n})\text{He}_{n}\left(x\right)-C_{n}\text{He}_{n-1}\left(x\right).
 $$
 
 where 
@@ -972,30 +972,30 @@ with
 
 $$
 \begin{align*}
-   He_{0}\left(x\right)&=1,\\
-   He_{1}\left(x\right)&=A_0x+B_0.
+   \text{He}_{0}\left(x\right)&=1,\\
+   \text{He}_{1}\left(x\right)&=A_0x+B_0.
 \end{align*}
 $$
 
 **Orthogonality.** 
 
 $$
-\int\_{-\infty}^{\infty}He_{n}\left(x\right)He_{m}\left(x\right)\omega\left(x\right)\mathrm{d}x=\sqrt{2\pi}n!\delta\_{mn}.
+\int\_{-\infty}^{\infty}\text{He}_{n}\left(x\right)\text{He}_{m}\left(x\right)\omega\left(x\right)\mathrm{d}x=\sqrt{2\pi}n!\delta\_{mn}.
 $$
 
 $$
 \begin{align*}
-    He_{0}(x)&=1,\\
-    He_{1}(x)&=x,\\
-    He_{2}(x)&=x^2-1,\\
-    He_{3}(x)&=x^3-3x,\\
-    He_{4}(x)&=x^4-6x^2+3,\\
-    He_{5}(x)&=x^5-10x^3+15x,\\
-    He_{6}(x)&=x^6-15x^4+45x^2-15,\\
-    He_{7}(x)&=x^7-21x^5+105x^3-105x,\\
-    He_{8}(x)&=x^8-28x^6+210x^4-420x^2+105,\\
-    He_{9}(x)&=x^9-36x^7+378x^5-1260x^3+945x,\\
-    He_{10}(x)&=x^{10}-45x^8+630x^6-3150x^4+4725x^2-945.
+    \text{He}_{0}(x)&=1,\\
+    \text{He}_{1}(x)&=x,\\
+    \text{He}_{2}(x)&=x^2-1,\\
+    \text{He}_{3}(x)&=x^3-3x,\\
+    \text{He}_{4}(x)&=x^4-6x^2+3,\\
+    \text{He}_{5}(x)&=x^5-10x^3+15x,\\
+    \text{He}_{6}(x)&=x^6-15x^4+45x^2-15,\\
+    \text{He}_{7}(x)&=x^7-21x^5+105x^3-105x,\\
+    \text{He}_{8}(x)&=x^8-28x^6+210x^4-420x^2+105,\\
+    \text{He}_{9}(x)&=x^9-36x^7+378x^5-1260x^3+945x,\\
+    \text{He}_{10}(x)&=x^{10}-45x^8+630x^6-3150x^4+4725x^2-945.
 \end{align*}
 $$
 
