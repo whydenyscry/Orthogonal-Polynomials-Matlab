@@ -944,7 +944,7 @@ $$
 
 ## Hermite He Polynomials
 
-The probabilist's Hermite polynomials $p\_n \left( x \right)=He\_{n}(x)$ are a class of orthogonal polynomials orthogonal on an interval $\left(-\infty,\infty\right)$ with a weight function $\omega \left( x \right)=\mathrm{e} ^ { - \frac{1}{2} x^2}$.
+The probabilist's Hermite polynomials $`p_n \left( x \right)=He_{n}(x)`$ are a class of orthogonal polynomials orthogonal on an interval $`\left(-\infty,\infty\right)`$ with a weight function $`\omega \left( x \right)=\mathrm{e} ^ { - \frac{1}{2} x^2}`$.
 
 **Definition.** The probabilist's Hermite polynomials are defined via Rodrigues' formula:
 
