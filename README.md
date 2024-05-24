@@ -18,6 +18,8 @@ Jacobi, Gegenbauer, Chebyshev of first, second, third, fourth kind, Legendre, La
 	- [Shifted Gegenbauer polynomials](#shifted-gegenbauer-polynomials)
 	- [Shifted Legendre polynomials](#shifted-legendre-polynomials)
 - [Laguerre Polynomials](#laguerre-polynomials)
+- [Hermite He Polynomials (probabilist's Hermite polynomials)](#hermite-he-polynomials)
+- [Hermite H Polynomials (physicist's Hermite polynomials)](#hermite-h-polynomials)
 - [References](#references)
 
 ## Definitions
@@ -46,7 +48,7 @@ $$
 |------------------------------------|---------------------------------------------|-------------------|-----------------------------------------------|--------------------------------------------------------------------------------------------------------------|-----------|-----------------------|
 | Jacobi                             | $P_n^{(\alpha,\beta)}(x)$                  | $(-1,1)$          | $(1-x)^\alpha(1+x)^\beta$                    | $\frac{2^{\alpha +\beta +1}}{2n+\alpha +\beta +1}\frac{\Gamma(n+\alpha +1)\Gamma(n+\beta +1)}{\Gamma(n+\alpha +\beta +1)n!}$                                      | $1 - x^2$ | $(-2)^n n!$           |
 | Gegenbauer                         | $C_n^{(\lambda)}(x)$                       | $(-1,1)$          | $(1-x^2)^{\lambda-1/2}$                      | $\frac{2^{1-2\lambda}\pi\Gamma(n+2\lambda)}{(n+\lambda)(\Gamma(\lambda))^2n!}$                              | $1 - x^2$ | $\frac{(-2)^n (\lambda + \frac{1}{2})_n n!}{(2\lambda)_n}$ |
-| Chebyshev of first kind           | $T_n(x)$                                    | $(-1,1)$          | $(1-x^2)^{-1/2}$                             | $\frac{\pi}{2}, n>0$                                                                                         | $1 - x^2$ | $\frac{(-2)^n (\frac{1}{2})_n}{n}$                     |
+| Chebyshev of first kind           | $T_n(x)$                                    | $(-1,1)$          | $(1-x^2)^{-1/2}$                             | $\pi \delta_{n,0} + \left(1 - \delta_{n,0}\right) \left(\frac{1}{2} \pi \right)$                                                                                         | $1 - x^2$ | $\frac{(-2)^n (\frac{1}{2})_n}{n}$                     |
 | Chebyshev of second kind          | $U_n(x)$                                    | $(-1,1)$          | $(1-x^2)^{1/2}$                              | $\frac{\pi}{2}$                                                                                               | $1 - x^2$ | $\frac{(-2)^n (\frac{3}{2})_n}{n + 1}$                 |
 | Chebyshev of third kind           | $V_n(x)$                                    | $(-1,1)$          | $(1-x)^{-1/2}(1+x)^{1/2}$                    | $\pi$                                                                                                         | $1 - x^2$ | $\frac{(-2)^n (\frac{1}{2})_n}{n}$                     |
 | Chebyshev of fourth kind          | $W_n(x)$                                    | $(-1,1)$          | $(1-x)^{1/2}(1+x)^{-1/2}$                    | $\pi$                                                                                                         | $1 - x^2$ | $\frac{(-2)^n (\frac{3}{2})_n}{2n + 1}$               |
@@ -938,6 +940,88 @@ $$
 
 <p align="center">
   <img src="images_svg/Laguerre-Polynomials-10.svg"/>
+</p>
+
+## Hermite He Polynomials
+
+The probabilist's Hermite polynomials $p_n\left(x\right)=He_{n}(x)$ are a class of orthogonal polynomials orthogonal on an interval $\left(-\infty,\infty\right)$ with a weight function $\omega\left(x\right)=\mathrm{e}^{-\frac{1}{2}x^2}$.
+
+**Definition.** The probabilist's Hermite polynomials are defined via Rodrigues' formula:
+
+$$
+[He_{n}(x)=(-1)^n\mathrm{e}^{\frac{1}{2}x^2}\frac{{\mathrm{d}}^{n}}{{\mathrm{d}x}^{n}}\left[\mathrm{e}^{-\frac{1}{2}x^2}\right].
+$$
+
+**Recurrence relations.** 
+
+$$
+He_{n+1}\left(x\right)=(A_{n}x+B_{n})He_{n}\left(x\right)-C_{n}He_{n-1}\left(x\right).
+$$
+
+where 
+
+$$
+\begin{align*}
+    A_{n}&=1,\\
+    B_{n}&=0,\\
+    C_{n}&=n,
+\end{align*}
+$$
+
+with
+
+$$
+\begin{align*}
+   He_{0}\left(x\right)&=1,\\
+   He_{1}\left(x\right)&=A_0x+B_0.
+\end{align*}
+$$
+
+**Orthogonality.** 
+
+$$
+\int\_{-\infty}^{\infty}He_{n}\left(x\right)He_{m}\left(x\right)\omega\left(x\right)\mathrm{d}x=\sqrt{2\pi}n!\delta\_{mn}.$$
+
+$$
+\begin{align*}
+    He_{0}(x)&=1,\\
+    He_{1}(x)&=x,\\
+    He_{2}(x)&=x^2-1,\\
+    He_{3}(x)&=x^3-3x,\\
+    He_{4}(x)&=x^4-6x^2+3,\\
+    He_{5}(x)&=x^5-10x^3+15x,\\
+    He_{6}(x)&=x^6-15x^4+45x^2-15,\\
+    He_{7}(x)&=x^7-21x^5+105x^3-105x,\\
+    He_{8}(x)&=x^8-28x^6+210x^4-420x^2+105,\\
+    He_{9}(x)&=x^9-36x^7+378x^5-1260x^3+945x,\\
+    He_{10}(x)&=x^{10}-45x^8+630x^6-3150x^4+4725x^2-945.
+\end{align*}
+$$
+
+<p align="center">
+  <img src="images_svg/Hermite-He-Polynomials.svg"/>
+</p>
+
+## Hermite H Polynomials
+
+$$
+\begin{align*}
+    H_{0}(x)&=1,\\
+    H_{1}(x)&=2x,\\
+    H_{2}(x)&=4x^2-2,\\
+    H_{3}(x)&=8x^3-12x,\\
+    H_{4}(x)&=16x^4-48x^2+12,\\
+    H_{5}(x)&=32x^5-160x^3+120x,\\
+    H_{6}(x)&=64x^6-480x^4+720x^2-120,\\
+    H_{7}(x)&=128x^7-1344x^5+3360x^3-1680x,\\
+    H_{8}(x)&=256x^8-3584x^6+13440x^4-13440x^2+1680,\\
+    H_{9}(x)&=512x^9-9216x^7+48384x^5-80640x^3+30240x,\\
+    H_{10}(x)&=1024x^{10}-23040x^8+161280x^6-403200x^4+302400x^2-30240.
+\end{align*}
+$$
+
+<p align="center">
+  <img src="images_svg/Hermite-H-Polynomials.svg"/>
 </p>
 
 
