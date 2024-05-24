@@ -48,7 +48,7 @@ $$
 |------------------------------------|---------------------------------------------|-------------------|-----------------------------------------------|--------------------------------------------------------------------------------------------------------------|-----------|-----------------------|
 | Jacobi                             | $P_n^{(\alpha,\beta)}(x)$                  | $(-1,1)$          | $(1-x)^\alpha(1+x)^\beta$                    | $\frac{2^{\alpha +\beta +1}}{2n+\alpha +\beta +1}\frac{\Gamma(n+\alpha +1)\Gamma(n+\beta +1)}{\Gamma(n+\alpha +\beta +1)n!}$                                      | $1 - x^2$ | $(-2)^n n!$           |
 | Gegenbauer                         | $C_n^{(\lambda)}(x)$                       | $(-1,1)$          | $(1-x^2)^{\lambda-1/2}$                      | $\frac{2^{1-2\lambda}\pi\Gamma(n+2\lambda)}{(n+\lambda)(\Gamma(\lambda))^2n!}$                              | $1 - x^2$ | $\frac{(-2)^n (\lambda + \frac{1}{2})_n n!}{(2\lambda)_n}$ |
-| Chebyshev of first kind           | $T_n(x)$                                    | $(-1,1)$          | $(1-x^2)^{-1/2}$                             | $\pi \delta_{n,0} + \left(1 - \delta_{n,0}\right) \left(\frac{1}{2} \pi \right)$                                                                                         | $1 - x^2$ | $\frac{(-2)^n (\frac{1}{2})_n}{n}$                     |
+| Chebyshev of first kind           | $T_n(x)$                                    | $(-1,1)$          | $(1-x^2)^{-1/2}$                             | $\pi \delta_{n,0} + \frac{1}{2} \pi\left(1 - \delta_{n,0}\right)$                                                                                         | $1 - x^2$ | $\frac{(-2)^n (\frac{1}{2})_n}{n}$                     |
 | Chebyshev of second kind          | $U_n(x)$                                    | $(-1,1)$          | $(1-x^2)^{1/2}$                              | $\frac{\pi}{2}$                                                                                               | $1 - x^2$ | $\frac{(-2)^n (\frac{3}{2})_n}{n + 1}$                 |
 | Chebyshev of third kind           | $V_n(x)$                                    | $(-1,1)$          | $(1-x)^{-1/2}(1+x)^{1/2}$                    | $\pi$                                                                                                         | $1 - x^2$ | $\frac{(-2)^n (\frac{1}{2})_n}{n}$                     |
 | Chebyshev of fourth kind          | $W_n(x)$                                    | $(-1,1)$          | $(1-x)^{1/2}(1+x)^{-1/2}$                    | $\pi$                                                                                                         | $1 - x^2$ | $\frac{(-2)^n (\frac{3}{2})_n}{2n + 1}$               |
@@ -949,7 +949,7 @@ The probabilist's Hermite polynomials $p_n\left(x\right)=He_{n}(x)$ are a class 
 **Definition.** The probabilist's Hermite polynomials are defined via Rodrigues' formula:
 
 $$
-[He_{n}(x)=(-1)^n\mathrm{e}^{\frac{1}{2}x^2}\frac{{\mathrm{d}}^{n}}{{\mathrm{d}x}^{n}}\left[\mathrm{e}^{-\frac{1}{2}x^2}\right].
+He_{n}(x)=(-1)^n\mathrm{e}^{\frac{1}{2}x^2}\frac{{\mathrm{d}}^{n}}{{\mathrm{d}x}^{n}}\left[\mathrm{e}^{-\frac{1}{2}x^2}\right].
 $$
 
 **Recurrence relations.** 
@@ -980,7 +980,8 @@ $$
 **Orthogonality.** 
 
 $$
-\int\_{-\infty}^{\infty}He_{n}\left(x\right)He_{m}\left(x\right)\omega\left(x\right)\mathrm{d}x=\sqrt{2\pi}n!\delta\_{mn}.$$
+\int\_{-\infty}^{\infty}He_{n}\left(x\right)He_{m}\left(x\right)\omega\left(x\right)\mathrm{d}x=\sqrt{2\pi}n!\delta\_{mn}.
+$$
 
 $$
 \begin{align*}
