@@ -944,19 +944,19 @@ $$
 
 ## Hermite He Polynomials
 
-The probabilist's Hermite polynomials \\(p_n \left( x \right)=He_{n}(x)\\) are a class of orthogonal polynomials orthogonal on an interval \\(\left(-\infty,\infty\right)\\) with a weight function \\(\omega \left( x \right)=\mathrm{e} ^ { - \frac{1}{2} x^2}\\).
+The probabilist's Hermite polynomials $p\_n \left( x \right)=He\_{n}(x)$ are a class of orthogonal polynomials orthogonal on an interval $\left(-\infty,\infty\right)$ with a weight function $\omega \left( x \right)=\mathrm{e} ^ { - \frac{1}{2} x^2}$.
 
 **Definition.** The probabilist's Hermite polynomials are defined via Rodrigues' formula:
 
-$$
-He\_{n}(x)=(-1)^n\mathrm{e}^{\frac{1}{2}x^2}\frac{{\mathrm{d}}^{n}}{{\mathrm{d}x}^{n}}\left[\mathrm{e}^{-\frac{1}{2}x^2}\right].
-$$
+```math
+He_{n}(x)=(-1)^n\mathrm{e}^{\frac{1}{2}x^2}\frac{{\mathrm{d}}^{n}}{{\mathrm{d}x}^{n}}\left[\mathrm{e}^{-\frac{1}{2}x^2}\right].
+```
 
 **Recurrence relations.** 
 
-$$
-He\_{n+1}\left(x\right)=(A\_{n}x+B\_{n})He\_{n}\left(x\right)-C\_{n}He\_{n-1}\left(x\right).
-$$
+```math
+He_{n+1}\left(x\right)=(A_{n}x+B_{n})He_{n}\left(x\right)-C_{n}He_{n-1}\left(x\right).
+```
 
 where 
 
